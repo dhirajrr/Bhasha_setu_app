@@ -1,19 +1,4 @@
-// // firebaseConfig.ts
-// import { initializeApp } from 'firebase/app';
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyAiEVF8NJi-n86aDfkIhJA7i5OGtzxj8z8",
-//   authDomain: "bhasha-setu.firebaseapp.com",
-//   projectId: "bhasha-setu",
-//   storageBucket: "bhasha-setu.appspot.com",
-//   messagingSenderId: "531832564032",
-//   appId: "1:531832564032:web:5001890fb2ff8babf4b2a5",
-//   measurementId: "G-S1Y685C8PQ",
-// };
-
-// const app = initializeApp(firebaseConfig);
-
-// export default app;
 
 
 
@@ -25,12 +10,12 @@ import { getStorage } from 'firebase/storage'; // Storage import
 
 // Your Firebase configuration object
 const firebaseConfig = {
-  apiKey: "AIzaSyAiEVF8NJi-n86aDfkIhJA7i5OGtzxj8z8",
+  apiKey: "",
   authDomain: "bhasha-setu.firebaseapp.com",
   projectId: "bhasha-setu",
-  storageBucket: "bhasha-setu.appspot.com",
-  messagingSenderId: "531832564032",
-  appId: "1:531832564032:web:5001890fb2ff8babf4b2a5",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
   measurementId: "G-S1Y685C8PQ",
 };
 
